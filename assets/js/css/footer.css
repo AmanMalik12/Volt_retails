@@ -1,0 +1,33 @@
+footer{
+    background: #F8F8F8;
+    border-top: 1px solid #000;
+}
+
+footer div.fwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div.fwrapper img{
+    width: 25rem;
+    margin: 2rem 0;
+}
+
+
+footer div.fwrapper a{
+    text-decoration: none;
+    margin: 1rem 0;
+    color: #000;
+    transition: all 0.2s ease;
+}
+footer div.fwrapper a:hover{
+    color: orange;
+}
+
+
+footer div.fwrapper span{
+    font-size: 14px;
+    margin: 0.6rem 0;
+}
